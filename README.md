@@ -1,6 +1,10 @@
 # micro_rtps_orangecube_ros2
+Prerequisites : Fastrtps_gen 1.0.4 installed, PX4 manual compile enviroment
+\
 PX4 software : 1.13.2 (manual compile) for orangecube
+\
 System : Raspberry pi 4 Ubuntu 22.04
+\
 ROS2 : humble
 \
 
@@ -17,10 +21,22 @@ FIDI cable can be purchased at
 \
 \
 \
+PX4 sw compile for orangecube:
+\
+1.Download PX4 software from PX4 official github      (This repository should be v1.13.2!!)
+\
+2.Copy the .board file in my github (PX4-Autopilot/boards/cubepilot/cubeorange)  and paste it to the same directory in PX4 software
+\
+3.Copy the .yaml file in my github (PX4-Autopilot/msg/tools) and paste it to the same directory in PX4 software
+\
+4.compile cubepilot_cubeorange_default object
+\
+\
+\
 micrortps client start (orangecube):
 1. Open QGroundControl (QGC)
 2. Connect oragnecube to QGC using debug port
-3. Open Mavlink consol
+3. Open Mavlink console
 4. run the below command
 \
 micrortps_client start -t UART -d /dev/ttyS1 -b 921600
@@ -34,6 +50,13 @@ micrortps_client status
 \
 ver --all
 \
+\
+\
+Downlaod the soruce code (run below command)
+\
+cd ~
+\
+git clone https://github.com/KangneoungLee/micro_rtps_orangecube_ros2.git px4_com_13_2_ws
 \
 \
 micrortps agent start (rpi 4):
