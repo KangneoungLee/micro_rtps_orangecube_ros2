@@ -2,7 +2,8 @@
 PX4 software : 1.13.2 (manual compile) for orangecube
 System : Raspberry pi 4 Ubuntu 22.04
 ROS2 : humble
-\\\\
+\\
+
 Configured px4 micrortps <-> ROS2
 
 RTPS serial port : Telem2
