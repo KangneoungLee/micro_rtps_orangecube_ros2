@@ -24,7 +24,7 @@ FIDI cable can be purchased at
 micrortps client start (orangecube):
 1. Open QGroundControl (QGC)
 2. Connect oragnecube to QGC using debug port
-3. Open Mavlink consol
+3. Open Mavlink console
 4. run the below command
 \
 micrortps_client start -t UART -d /dev/ttyS1 -b 921600
