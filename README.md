@@ -22,9 +22,13 @@ FIDI cable can be purchased at
 \
 \
 PX4 sw compile for orangecube:
+\
 1.Download PX4 software from PX4 official github      (This repository should be v1.13.2!!)
+\
 2.Copy the .board file in my github (PX4-Autopilot/boards/cubepilot/cubeorange)  and paste it to the same directory in PX4 software
+\
 3.Copy the .yaml file in my github (PX4-Autopilot/msg/tools) and paste it to the same directory in PX4 software
+\
 4.run bleow command
 \
 make cubepilot_cubeorange_default
