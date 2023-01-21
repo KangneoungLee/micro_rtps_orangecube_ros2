@@ -33,8 +33,6 @@ micrortps_client status
 6. firmware version check (optional)
 \
 ver --all
-
-
 \
 \
 \
