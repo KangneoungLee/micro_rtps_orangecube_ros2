@@ -29,9 +29,7 @@ PX4 sw compile for orangecube:
 \
 3.Copy the .yaml file in my github (PX4-Autopilot/msg/tools) and paste it to the same directory in PX4 software
 \
-4.run bleow command
-\
-make cubepilot_cubeorange_default
+4.compile cubepilot_cubeorange_default object
 \
 \
 \
