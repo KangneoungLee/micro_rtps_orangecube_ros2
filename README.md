@@ -12,33 +12,40 @@ PX4 Parameter :  RTPS_CONFIG = TELEM 2 (can be set using QGroundControl paramete
 
 Port connection :  Telem2 <- FTDI cable -> USB
 FIDI cable can be purchased at 
+\\
+\\
+\\
+\\
 
 micrortps client start (orangecube):
 1. Open QGroundControl (QGC)
 2. Connect oragnecube to QGC using debug port
 3. Open Mavlink consol
 4. run the below command
-
+\\
 micrortps_client start -t UART -d /dev/ttyS1 -b 921600
 
 5. client status check (optional)
-
+\\
 micrortps_client status
 
 
 6. firmware version check (optional)
-
+\\
 ver --all
 
 
+\\
+\\
+\\
 
 micrortps agent start (rpi 4):
 1. Build the ros workspace using px4_ros_com/scripts/build_ros2_workspace.bash (run the below command)   
-
+\\
 build_ros2_workspace.bash
 
 2. run the below commands
-
+\\
 cd ~/px4_com_1_13_2_ws
 source install/setup.bash
 micrortps_agent -t UART -d /dev/ttyUSB0 -b 921600
