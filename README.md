@@ -21,6 +21,17 @@ FIDI cable can be purchased at
 \
 \
 \
+PX4 sw compile for orangecube
+\
+1.Download PX4 software from PX4 official github      (This repository should be v1.13.2!!)
+2.Copy the .board file in my github and paste it to the same directory in PX4 software
+3.Copy the .yaml file in my github and paste it to the same directory in PX4 software
+4.run bleow command
+\
+make cubepilot_cubeorange_default
+
+
+
 micrortps client start (orangecube):
 1. Open QGroundControl (QGC)
 2. Connect oragnecube to QGC using debug port
