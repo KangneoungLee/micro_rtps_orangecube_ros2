@@ -36,9 +36,6 @@ ver --all
 
 
 \\
-\\
-\\
-
 micrortps agent start (rpi 4):
 1. Build the ros workspace using px4_ros_com/scripts/build_ros2_workspace.bash (run the below command)   
 \\
