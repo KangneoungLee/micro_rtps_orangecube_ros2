@@ -36,6 +36,13 @@ ver --all
 \
 \
 \
+Downlaod the soruce code (run below command)
+\
+cd ~
+\
+git clone https://github.com/KangneoungLee/micro_rtps_orangecube_ros2.git px4_com_13_2_ws
+\
+\
 micrortps agent start (rpi 4):
 1. Build the ros workspace using px4_ros_com/scripts/build_ros2_workspace.bash (run the below command)   
 \
