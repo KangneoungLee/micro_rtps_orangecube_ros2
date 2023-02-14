@@ -67,7 +67,7 @@ SensorCombinedListener::~SensorCombinedListener(){}
 
 void SensorCombinedListener::Callback(const px4_msgs::msg::SensorCombined::UniquePtr msg)
 {
-      std::cout << "\n\n\";
+      std::cout << "\n\n";
       std::cout << "RECEIVED SENSOR COMBINED DATA"   << std::endl;
       std::cout << "============================="   << std::endl;
       std::cout << "ts: "          << msg->timestamp    << std::endl;
